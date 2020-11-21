@@ -1,0 +1,371 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: poppins;
+    
+}
+header .carousel-inner .item{
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -17px;
+    padding: 40px 1px;
+    font-weight: 700;
+}
+.navbar-inverse .navbar-brand .title1{
+    color: brown;
+}
+.navbar-inverse .navbar-brand .title2{
+    color: crimson;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: brown;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: darkred;
+    font-weight: bolder; 
+}
+.banner{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+.carousel-caption{
+    padding-bottom: 180px;
+    font-family: poppins;
+}
+.carousel-caption h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+    color: #edbb00;
+}
+.carousel-caption a{
+    background: #edbb00;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+.carousel-caption a:hover{
+    text-decoration: none; 
+}
+.carousel-control .right{
+    background-image: none;
+}
+.carousel-control .left{
+    background-image: none;
+}
+.carousel-indicators .active{
+    background-color: #edbb00;
+    border-color: #edbb00;
+}
+
+
+/*----------------------- about us section ----------------------*/
+
+
+/*---------------- team members section -------------------*/
+
+.title h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 36px;
+}
+.title p{
+    margin-bottom: 40px;
+}
+
+.team{
+   
+    justify-content: center;
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.team .team-member{
+    background-color: #fff;
+    margin: 5px;
+    margin-bottom: 50px; 
+    border: 1px solid gray;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transform: all 0.3s ease-in;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+.team .team-member:hover{
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+.team .team-member h3{
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 60px;
+}
+.team .team-member p.role{
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team-member .team-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.team .team-member .team-img img{
+    width: 100px;
+    height: 100px;
+   
+}
+.team .team-member .icons{
+    display: inline-flex;
+    padding: 10px;
+}
+.team .team-member:hover h3, .team .team-member:hover i{
+    color: #fff;
+}
+/*------------ our portfolio -------*/
+.portfolio h2{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.portfolio p{
+    padding: 10px 0;
+}
+.portfolio .card{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transform: all 0.3s ease-in;
+    text-align: center;
+}
+.portfolio .card .theimage img:hover{
+    transform: scale(1.1);
+}
+.portfolio .card .port p{
+    font-size: 15px;
+}
+
+ 
+/*----- contact us section ------*/
+.contactus{
+    width: 100%;
+    height: 150hv;
+    padding: 80px 0;
+    position: relative;
+}
+.contactus:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(330deg, #16c9f6 55%, #fff 0%);
+    z-index: -1; 
+}
+
+.form-button button{
+    justify-content: center;
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    animation-play-state: 12px 35px;
+    outline: none;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    background: transparent;
+}
+form:hover .form-button button{
+    background: #fff;
+    color: #50d1c0;
+}
+
+
+/*----- footer ---------*/
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    margin-top: 20px;
+    background: #16c9f6;
+    position: relative;
+}
+.footersection h3{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 2.2rem!important;
+    text-shadow: 0.2px 5px rgba(0,0,0,0.4);
+}
+.footersection p{
+    color: #fff;
+}
+.footersection li{
+    list-style: none;
+}
+.footersection li a{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.footersection .footerbottom{
+    width: 100%
+    color: #000;
+}
+
+.footer-div .icons{
+    display: inline-flex;
+    padding: 10px;
+}
+
+/*------- scrollbutton -----*/
+#mybtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px; 
+}
+#mybtn:hover{
+    background: #606060;
+    
+}
+
+/*---- responsive css ---*/
+
+@media only screen and (min-width: 990px) and (max-width: 1100px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+    }
+    .carousel-caption{
+        padding-bottom: 170px;
+    }
+    .carousel-caption h2{
+        font-size: 30px;
+    }
+    .carousel-caption h3{
+        font-size: 20px;
+    }
+    .carousel-caption a{
+        padding: 10px 25px;
+    }
+}
+
+
+/*----- media query -----*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+    }
+    .carousel-caption{
+        padding-bottom: 170px;
+    }
+    .carousel-caption h2{
+        font-size: 23px;
+    }
+    .carousel-caption h3{
+        font-size: 19px;
+    }
+    .carousel-caption a{
+        padding: 10px 25px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+    }
+    .navbar-collapse{
+        background: rgba(0,0,0,0.5);
+    }
+    .carousel-caption{
+        padding-bottom: 200px;
+    }
+    .carousel-caption h2{
+        font-size: 25px;
+    }
+    .carousel-caption h3{
+        font-size: 18px;
+    }
+    .carousel-caption a{
+        padding: 10px 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
