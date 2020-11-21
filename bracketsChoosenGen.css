@@ -15,16 +15,16 @@ a{
 a:hover{
     text-decoration: none;
 }
-
 .navbar-inverse{
-    background-color: transparent;
+    
     border-color: transparent;
 }
+
 .navbar-inverse .navbar-brand{
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: -17px;
-    padding: 40px 1px;
+    padding-top: 40px;
     font-weight: 700;
 }
 .navbar-inverse .navbar-brand .title1{
@@ -37,7 +37,7 @@ a:hover{
 .navbar-inverse .navbar-nav > li > a{
     color: brown;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 12px;
     margin-top: 10px;
 }
 .navbar-inverse .navbar-nav > li > a:hover{
@@ -285,7 +285,7 @@ form:hover .form-button button{
 
 /*---- responsive css ---*/
 
-@media only screen and (min-width: 990px) and (max-width: 1100px){
+@media only screen and (min-width: 1200px) and (max-width: 1382px){
     .navbar-inverse .navbar-brand{
         font-size: 30px;
     }
@@ -305,7 +305,7 @@ form:hover .form-button button{
 
 
 /*----- media query -----*/
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
     .navbar-inverse .navbar-brand{
         font-size: 30px;
     }
@@ -323,7 +323,7 @@ form:hover .form-button button{
     }
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (min-width: 768px){
     .navbar-inverse .navbar-brand{
         font-size: 20px;
     }
@@ -337,12 +337,54 @@ form:hover .form-button button{
         font-size: 20px;
     }
     .carousel-caption h3{
-        font-size: 17px;
+        font-size: 15px;
     }
     .carousel-caption a{
         padding: 10px 25px;
     }
 }
+
+@media only screen and (max-width: 480px){
+    .navbar-inverse .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-collapse{
+        background: rgba(0,0,0,0.5);
+    }
+    .carousel-caption{
+        padding-bottom: 150px;
+    }
+    .carousel-caption h2{
+        font-size: 20px;
+    }
+    .carousel-caption h3{
+        font-size: 15px;
+    }
+    .carousel-caption a{
+        padding: 10px 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
