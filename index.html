@@ -21,7 +21,7 @@
 	<div class="container">
     	  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#"><span class="title1">Chosen</span> <span class="title2">Generation</span></a>
+                <a class="navbar-brand" href="#">Chosen Generation</a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,19 +33,19 @@
         
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#home">Home <i class="glyphicon glyphicon-home"></i></a></li>
+                    <li><a href="#team">Team <i class="glyphicon glyphicon-user"></i></a></li>
+                    <li><a href="#about">About <i class="glyphicon glyphicon-book"></i></a></li>
+                    <li><a href="#portfolio">Portfolio <i class="glyphicon glyphicon-picture"></i></a></li>
+                    <li><a href="#">Events <i class=""></i></a></li>
+                    <li><a href="#contacts">Contacts <i class="glyphicon glyphicon-earphone"></i></a></li>
                 </ul>
             </div>
       </nav>
  </div>
     
     <!--- start of image slider -->
-<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="7000">
+<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="5000">
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		<li data-target="#myCarousel" data-slide-to="1"></li>
@@ -99,9 +99,8 @@
 </header>
     
 <!------------- start of teams ---->   
-<div id="team">
+<div id="team" class="myTeam">
     <div class="container my-3 py-5 text-center">
-        
         <div class="row title">
             <div class="col">
                 <h1>Our Team</h1>
@@ -116,28 +115,31 @@
                         <div class="team">
                             <div class="team-member">
                                 <div class="team-img">
-                                    <div class="team-img">
-                                        <img src="images/l1.jpg" alt="image 1" class="img-circle img-fluid">
+                                    <div class="team-imge">
+                                        <img src="images/l1.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Joseph Ngugi</h3>
                                 <p class="role">Chairperson</p>
-                                <p>It an honour to serve as the chairperson in this group. I have learnt so much from the members themselves and also the people we visit
-				    in our events. No one is born poor so lets join hands and help with whatever we got.</p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show">View content</button>
+                                <div id="card-content">
+                                    <p>He is graduate from Utalii college with food and beverage service. Loves hiking and anything that brings smiles to others faces.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -152,26 +154,30 @@
                             <div class="team-member">
                                 <div class="team-img">
                                     <div class="team-img">
-                                        <img src="images/l4.jpg" alt="image 1" class="img-circle img-fluid">
+                                        <img src="images/l4.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Tess Ndung'u</h3>
                                 <p class="role">Chairlady</p>
-                                <p>So many kids out there have no one to lookup to and its our respinsibility to step in and provide them we the basic need and most of all hope.</p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show1">View content</button>
+                                <div id="card-content1">
+                                    <p>She is graduate from Cooperative University and is the most humble in the group. Loves traveling and socializing.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide1" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -186,27 +192,31 @@
                             <div class="team-member">
                                 <div class="team-img">
                                     <div class="team-img">
-                                        <img src="images/l3.jpg" alt="image 1" class="img-circle img-fluid">
+                                        <img src="images/vicky.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Victoria Wangari</h3>
                                 <p class="role">Treasure</p>
-                                <p>Love is the greatest commandment of all and in this group we express it by visiting the needy, sick person and join hand in pertaking the nobble 
-				    task of leaving smile on their faces</p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show2">View content</button>
+                                <div id="card-content2">
+                                    <p>She is graduate from Nairobi University and loves meeting friends socializing, has recieved many awards for
+                                    leading other to partake in charity work.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide2" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -223,26 +233,31 @@
                             <div class="team-member">
                                 <div class="team-img">
                                     <div class="team-img">
-                                        <img src="images/l2.jpg" alt="image 1" class="img-circle img-fluid">
+                                        <img src="images/l2.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Jon Githua</h3>
                                 <p class="role">Member Representative</p>
-                                <p>Apart from helping and providing hope, we like enjoying ourselve ulitizing every minute and every moment as much as we can. Wonna have some just join.</p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show3">View content</button>
+                                <div id="card-content3">
+                                    <p>He is an undergraduate from Kabete College taking Constraction Management, loves have lots of fun and is a good 
+                                    representative.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide3" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -257,27 +272,31 @@
                             <div class="team-member">
                                 <div class="team-img">
                                     <div class="team-img">
-                                        <img src="images/l5.jpg" alt="image 1" class="img-circle img-fluid">
+                                        <img src="images/l5.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Michael Mwaura</h3>
                                 <p class="role">Organiser</p>
-                                <p>Everyone needs to feel that they are loved and that they can have someone to relay on and can comfort them in any situation. 
-				    Other than helping the less fortunate we also focus on the issues affecting us as a youth group.</p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show4">View content</button>
+                                <div id="card-content4">
+                                    <p>He is graduate from Cooperative University and currenty working as an accountant, loves gaming hiking and being there
+                                    for others.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide4" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -292,26 +311,31 @@
                             <div class="team-member">
                                 <div class="team-img">
                                     <div class="team-img">
-                                        <img src="images/l6.jpg" alt="image 1" class="img-circle img-fluid">
+                                        <img src="images/dammah.jpg" alt="image 1" class="img-thumnail img-responsive">
                                     </div>
                                 </div>
                                 <h3>Ngendo Kimani</h3>
                                 <p class="role">Secretary</p>
-                                <p>Blessed is the hand that gives whole heartedly. </p>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-facebook-f"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </div>
-                                <div class="icons">
-                                    <a href="#">
-                                        <i class="fa fa-instagram"></i>
-                                    </a>
+                                <button class="btn btn-primary m-2 p-4" id="btn-show5">View content</button>
+                                <div id="card-content5">
+                                    <p>She is graduate from Kenyatta University and is current a working class, loves making ever second count with smile in 
+                                    her face.</p>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div><br>
+                                    <button id="btn-hide5" class="btn btn-info m-2 p-4">Hide content</button>
                                 </div>
                             </div>
                         </div>
@@ -324,7 +348,7 @@
 <!---- end of teams ---->
 
 
-<!-------------- start of about us ---->
+<!--- start of about us ---->
 <div id="about" class="about">
 <div class="jumbotron">
 <div class="container aboutContent">
@@ -356,13 +380,13 @@
         </div>
         
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInLeft" style="animation-delay: 1s">
+                <div class="card ">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s0.jpg" alt="image 1" class="img-responsive ">
+                                    <a href="images/s0.jpg"><img src="images/s0.jpg" alt="image 1" class="img-responsive "></a>
                                 </div>
                                 <p>Our crew preparing the food that was to be share that day</p>
                             </div>
@@ -371,13 +395,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInLeft" style="animation-delay: 1s">
+                <div class="card ">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s1.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s1.jpg"><img src="images/s1.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>Everyone is busy making the fruits eatable</p>
                             </div>
@@ -386,13 +410,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInLeft" style="animation-delay: 1s">
+                <div class="card ">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s2.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s2.jpg"><img src="images/s2.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>Our aim is to show the kid that they can have anything</p>
                             </div>
@@ -401,13 +425,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
-                <div class="card">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInLeft" style="animation-delay: 1s">
+                <div class="card ">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s7.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s7.jpg"><img src="images/s7.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>Enjoying ourselves as we compite dancing with the kids</p>
                             </div>
@@ -418,13 +442,13 @@
         </div>
         
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInRight" style="animation-delay: 3s">
                 <div class="card">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s8.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s8.jpg"><img src="images/s8.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>This is the moment were we show our love and compation </p>
                             </div>
@@ -433,13 +457,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInRight" style="animation-delay: 3s">
                 <div class="card">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s9.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s9.jpg"><img src="images/s9.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>Taking some awesome photos with the kids </p>
                             </div>
@@ -448,13 +472,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInRight" style="animation-delay: 3s">
                 <div class="card">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s10.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s10.jpg"><img src="images/s10.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>We try to show them that everything is posible</p>
                             </div>
@@ -463,13 +487,13 @@
                 </div>
             </div>
             
-            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-12 animated bounceInRight" style="animation-delay: 3s">
                 <div class="card">
                     <div class="card-body">
                         <div class="port">
                             <div class="portfolio-items">
                                 <div class="theimage">
-                                    <img src="images/s11.jpg" alt="image 1" class="img-responsive">
+                                    <a href="images/s11.jpg"><img src="images/s11.jpg" alt="image 1" class="img-responsive"></a>
                                 </div>
                                 <p>When the kids express smile on their faces</p>
                             </div>
@@ -533,7 +557,7 @@
 <!-------------- start of footer -------->   
  
 <footer class="footersection" id="footerdiv">
-    <div class="container">
+    <div class="container footer-top">
         <div class="row">
             <div class="col-lg-4 col-md-6 col-12 footer-div">
                 <div>
@@ -544,7 +568,7 @@
             
             <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
                 <div>
-                    <h3>Nav Links</h3>
+                    <h4>Nav Links</h4>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#about">About</a></li>
@@ -556,8 +580,10 @@
             
             <div class="col-lg-4 col-md-6 col-12 footer-div">
                 <div>
-                    <h3>Contributions</h3>
-                    <p>Thanks for visiting our page, you can send your contribution to us through our E-mpesa number <strong>0705-203-169</strong>, or you can get us through our Email <a>Choosengeneration@gmail.com</a></p>
+                    <h4>Contributions</h4>
+                    <p>Thanks for visiting our page, and if you feel that calling to pertake in charity work and haven't found the right platform you
+                    can join us and register to be a full member. You can also start at home be helping anyone who needs help coz charity begins at home.
+                    Follow us in the links below and find out our next event. God bless you.</p>
                     <div class="icons">
                         <a href="#">
                             <i class="fa fa-facebook-f"></i>
@@ -577,16 +603,90 @@
             </div>
         </div>
         
-        <div class="mt-5 text-center footerbottom">
-            <p>Copyright &copy;2020 ChoosenGeneration.com | Designed by Aernest Njuki</p>
-        </div>
+        
         
         <div class="scrolltop float-right">
             <i class="fa fa-arrow-up" onclick="topfunction()" id="mybtn"></i>
         </div>
     </div>
+
+    <div class="mt-5 text-center footerbottom">
+        Copyright &copy;2020 ChosenGeneration | Designed by Aernest Njuki
+    </div>
 </footer>
 <!---- end of footer ---->
+
+
+<!--- responsive teams button -->
+<script>
+    $("document").ready(function(){
+        // card 1
+        $("#card-content").hide();
+        $("#btn-show").on("click", function(){
+            $("#card-content").show();
+            $("#btn-show").hide();
+        });
+        $("#btn-hide").on("click", function(){
+            $("#card-content").hide();
+            $("#btn-show").show();
+        });
+
+        // card 2
+        $("#card-content1").hide();
+        $("#btn-show1").on("click", function(){
+            $("#card-content1").show();
+            $("#btn-show1").hide();
+        });
+        $("#btn-hide1").on("click", function(){
+            $("#card-content1").hide();
+            $("#btn-show1").show();
+        });
+
+        // card 3
+        $("#card-content2").hide();
+        $("#btn-show2").on("click", function(){
+            $("#card-content2").show();
+            $("#btn-show2").hide();
+        });
+        $("#btn-hide2").on("click", function(){
+            $("#card-content2").hide();
+            $("#btn-show2").show();
+        });
+
+        // card 4
+        $("#card-content3").hide();
+        $("#btn-show3").on("click", function(){
+            $("#card-content3").show();
+            $("#btn-show3").hide();
+        });
+        $("#btn-hide3").on("click", function(){
+            $("#card-content3").hide();
+            $("#btn-show3").show();
+        });
+
+        // card 5
+        $("#card-content4").hide();
+        $("#btn-show4").on("click", function(){
+            $("#card-content4").show();
+            $("#btn-show4").hide();
+        });
+        $("#btn-hide4").on("click", function(){
+            $("#card-content4").hide();
+            $("#btn-show4").show();
+        });
+
+        // card 6
+        $("#card-content5").hide();
+        $("#btn-show5").on("click", function(){
+            $("#card-content5").show();
+            $("#btn-show5").hide();
+        });
+        $("#btn-hide5").on("click", function(){
+            $("#card-content5").hide();
+            $("#btn-show5").show();
+        });
+    });
+</script>
 
     
     
