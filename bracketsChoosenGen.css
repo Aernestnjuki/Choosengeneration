@@ -114,8 +114,6 @@ a:hover{
 .team .team-member{
     background-color: #fff;
     margin: 5px;
-    /*margin-bottom: 50px; 
-    border: 1px solid gray;*/
     box-shadow: 5px 5px 15px #e74c3c;
     transform: all 0.3s ease-in;
     width: 300px;
@@ -359,13 +357,16 @@ form:hover .form-button button{
         padding-bottom: 170px;
     }
     .carousel-caption h2{
-        font-size: 18px;
+        font-size: 23px;
     }
     .carousel-caption h3{
-        font-size: 15px;
+        font-size: 19px;
     }
     .carousel-caption a{
         padding: 10px 25px;
+    }
+    .team .team-member{
+        /*left: 50px;*/
     }
     .portfolio .card{
         margin-bottom: 20px;
@@ -391,16 +392,38 @@ form:hover .form-button button{
         font-size: 18px;
     }
     .carousel-caption h3{
-        font-size: 15px;
+        font-size: 14px;
     }
     .carousel-caption a{
         padding: 10px 25px;
-    }
-    .team .team-member{
-        left: 50px;
     }
     .portfolio .card{
         margin: 40px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
